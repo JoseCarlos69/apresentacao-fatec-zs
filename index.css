@@ -1,0 +1,33 @@
+body {
+    background-color: azure;
+}
+.coluna {
+    float: left;
+    width: 20%;
+    margin: 20px;
+    text-align: center;
+}
+.coluna5 {
+    align-items: center;
+    text-align: center;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+h1 {
+    text-align: center;
+}
+
+.coluna5 p {
+    width: 20%;
+    padding-left: 590px;
+}
+p {
+    text-align: center;
+}
