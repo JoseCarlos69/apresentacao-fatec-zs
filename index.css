@@ -3,12 +3,8 @@ body {
 }
 .coluna {
     float: left;
-    width: 20%;
+    width: 30%;
     margin: 20px;
-    text-align: center;
-}
-.coluna5 {
-    align-items: center;
     text-align: center;
 }
 .row::after {
@@ -23,11 +19,10 @@ img {
 h1 {
     text-align: center;
 }
-
-.coluna5 p {
-    width: 20%;
-    padding-left: 590px;
-}
 p {
     text-align: center;
+}
+.row {
+    text-align: center;
+    align-items: center;
 }
